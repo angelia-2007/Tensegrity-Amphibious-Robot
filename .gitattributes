@@ -1,2 +1,53 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Keil build files
+**/Objects/
+**/Listings/
+**/Debug/
+**/Release/
+
+*.o
+*.d
+*.dep
+*.axf
+*.elf
+*.map
+*.lst
+*.bak
+*.tmp
+*.crf
+*.lnp
+*.htm
+*.build_log.htm
+
+# CubeIDE
+.metadata/
+.settings/
+.launches/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MATLAB
+*.asv
+slprj/
+*.slxc
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+secrets.h
+**/secrets.h
+.env
+*.pem
+*.key
