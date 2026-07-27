@@ -51,7 +51,7 @@ The project currently focuses on:
 - STM32-based embedded control;
 - 12-channel pneumatic valve actuation;
 - gait-sequence execution and switching;
-- SBUS/ELRS remote-control input;
+- ELRS remote-control input;
 - attitude and motion-state acquisition;
 - land, underwater, and transition-zone locomotion;
 - system integration, debugging, and experimental verification.
@@ -100,7 +100,7 @@ The robot control system can be summarized as:
 Remote controller / upper-level command
                   │
                   ▼
-          ELRS receiver / SBUS
+             ELRS receiver
                   │
                   ▼
             STM32 controller
@@ -137,7 +137,6 @@ The robot control system may include the following hardware:
 | 24 V solenoid valves | Control pneumatic flow paths and actuator states |
 | Pneumatic actuation system | Produces cable-tension or structural-deformation actions |
 | ELRS receiver | Receives remote-control commands |
-| SBUS interface | Transfers multi-channel remote-control data to the controller |
 | IMU / attitude sensors | Measure acceleration, angular velocity, heading, or robot attitude |
 | SWD interface | Supports firmware download and online debugging |
 | Power-supply modules | Provide isolated or regulated voltages required by the controller and loads |
@@ -177,7 +176,7 @@ A typical gait-control process is:
 
 1. Initialize the controller, communication interface, GPIO, timers, and sensors.
 2. Check the remote-control link state.
-3. Decode the selected SBUS channels.
+3. Decode the selected channels.
 4. Determine whether the robot is enabled and which gait is requested.
 5. Execute the corresponding pneumatic action sequence.
 6. Update the action counter or gait state periodically.
@@ -454,7 +453,6 @@ Before contributing:
 Suggested commit messages:
 
 ```text
-Fix SBUS channel decoding
 Add valve output safety reset
 Improve gait switching logic
 Update STM32 pin configuration
