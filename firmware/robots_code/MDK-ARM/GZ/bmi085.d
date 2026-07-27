@@ -1,0 +1,14 @@
+gz\bmi085.o: ..\DDriver\BMI08x-Sensor-API-master\bmi085.c
+gz\bmi085.o: ..\DDriver\BMI08x-Sensor-API-master\bmi08x.h
+gz\bmi085.o: ..\DDriver\BMI08x-Sensor-API-master\bmi08x_defs.h
+gz\bmi085.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h
+gz\bmi085.o: ../Drivers/CMSIS/Include/core_cm4.h
+gz\bmi085.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+gz\bmi085.o: ../Drivers/CMSIS/Include/cmsis_version.h
+gz\bmi085.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+gz\bmi085.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+gz\bmi085.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+gz\bmi085.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+gz\bmi085.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+gz\bmi085.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+gz\bmi085.o: ..\DDriver\BMI08x-Sensor-API-master\bmi085.h
