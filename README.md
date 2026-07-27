@@ -1,17 +1,17 @@
 # Amphibious Tensegrity Spherical Robot
 
-> An open-source STM32 firmware project for a six-strut amphibious tensegrity spherical robot.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+> An open-source STM32 firmware project for a six-strut amphibious tensegrity spherical robot.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
 
 本项目面向湿地、浅水区及复杂水陆过渡环境的生态勘测需求，开发一种具有多模态运动能力的水陆两栖张拉整体球形机器人。机器人采用六支柱张拉整体结构与气动驱动系统，可实现陆地滚动与跳跃、水下运动以及水陆过渡区域运动。
 
-This project develops a six-strut amphibious tensegrity spherical robot for ecological surveying in wetlands, shallow water, and complex land–water transition zones. The robot combines a tensegrity structure with pneumatic actuation to support terrestrial rolling and jumping, underwater locomotion, and cross-medium movement.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+This project develops a six-strut amphibious tensegrity spherical robot for ecological surveying in wetlands, shallow water, and complex land–water transition zones. The robot combines a tensegrity structure with pneumatic actuation to support terrestrial rolling and jumping, underwater locomotion, and cross-medium movement.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
 
 ---
 
 ## Robot Overview
 
 <p align="center">
-  <img src="media/robot-overview.png"
+  <img src="media/robo.jpg"
        alt="Amphibious tensegrity spherical robot"
        width="750">
 </p>
