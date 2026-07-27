@@ -1,20 +1,20 @@
 # Amphibious Tensegrity Spherical Robot
 
-> An open-source STM32 firmware project for a six-strut amphibious tensegrity spherical robot.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+> An open-source STM32 firmware project for a six-strut amphibious tensegrity spherical robot. 
 
 本项目面向湿地、浅水区及复杂水陆过渡环境的生态勘测需求，开发一种具有多模态运动能力的水陆两栖张拉整体球形机器人。机器人采用六支柱张拉整体结构与气动驱动系统，可实现陆地滚动与跳跃、水下运动以及水陆过渡区域运动。
 
-This project develops a six-strut amphibious tensegrity spherical robot for ecological surveying in wetlands, shallow water, and complex land–water transition zones. The robot combines a tensegrity structure with pneumatic actuation to support terrestrial rolling and jumping, underwater locomotion, and cross-medium movement.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+This project develops a six-strut amphibious tensegrity spherical robot for ecological surveying in wetlands, shallow water, and complex land–water transition zones. The robot combines a tensegrity structure with pneumatic actuation to support terrestrial rolling and jumping, underwater locomotion, and cross-medium movement.
 
 ---
 
 ## Robot Overview
 
-<p align="center">
+<p align="center"> 
   <img src="media/robo.jpg"
        alt="Amphibious tensegrity spherical robot"
        width="750">
-</p>
+</p> 
 
 ---
 
@@ -42,9 +42,9 @@ This project develops a six-strut amphibious tensegrity spherical robot for ecol
 
 ## Project Overview
 
-Traditional rigid robots often face difficulties in wetlands and land–water transition zones, including poor terrain adaptability, limited impact resistance, and possible disturbance to fragile environments. A tensegrity robot uses isolated compression members connected by a continuous tension network, giving the overall structure flexibility, impact resistance, and passive environmental adaptability.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+Traditional rigid robots often face difficulties in wetlands and land–water transition zones, including poor terrain adaptability, limited impact resistance, and possible disturbance to fragile environments. A tensegrity robot uses isolated compression members connected by a continuous tension network, giving the overall structure flexibility, impact resistance, and passive environmental adaptability.                
 
-The current platform is based on a six-strut tensegrity spherical structure. Its embedded controller drives multiple pneumatic valves in a predefined or feedback-adjusted sequence, changing cable tension and the robot's center of mass to generate different gaits.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+The current platform is based on a six-strut tensegrity spherical structure. Its embedded controller drives multiple pneumatic valves in a predefined or feedback-adjusted sequence, changing cable tension and the robot's center of mass to generate different gaits.              
 
 The project currently focuses on:
 
@@ -60,18 +60,18 @@ The project currently focuses on:
 
 ## Authors and Contributors
 
-The original firmware was primarily developed by **RuoYv Ren**, who completed the initial implementation of the robot's basic control program and locomotion functions.reload-alertreload-alertreload-alertreload-alert
+The original firmware was primarily developed by **RuoYv Ren**, who completed the initial implementation of the robot's basic control program and locomotion functions.     
 
-**Angelia Ye** subsequently improved and optimized the original program, completed system integration, debugging, functional verification, and code organization, and prepared the source code and documentation for open-source release.reload-alertreload-alertreload-alertreload-alertreload-alert
+**Angelia Ye** subsequently improved and optimized the original program, completed system integration, debugging, functional verification, and code organization, and prepared the source code and documentation for open-source release.      
 
-This repository is published with the permission of the original firmware author.reload-alertreload-alertreload-alertreload-alertreload-alert
+This repository is published with the permission of the original firmware author.      
 
 ### Contribution Statement
 
 | Contributor | Main contribution |
 |---|---|
-| **RuoYv Ren** | Original firmware development; initial implementation of basic robot control and locomotion functions; debugging; functional verification |reload-alertreload-alertreload-alertreload-alertreload-alert
-| **Angelia Ye** | Program improvement and optimization; system integration; debugging; functional verification; documentation; repository organization and maintenance |reload-alertreload-alertreload-alertreload-alertreload-alert
+| **RuoYv Ren** | Original firmware development; initial implementation of basic robot control and locomotion functions; debugging; functional verification |     
+| **Angelia Ye** | Program improvement and optimization; system integration; debugging; functional verification; documentation; repository organization and maintenance |     
 
 
 ---
@@ -213,7 +213,7 @@ docs/                         # Technical documentation and experiment instructi
 media/                        # Images and links to demonstration videos
 ```
 
-Do not list planned directories as released content until the corresponding files have actually been uploaded.reload-alert
+Do not list planned directories as released content until the corresponding files have actually been uploaded. 
 
 ### Files That Should Usually Be Retained
 
@@ -246,7 +246,7 @@ Do not list planned directories as released content until the corresponding file
 
 ## Development Environment
 
-The exact versions used for a reproducible build should be recorded here.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+The exact versions used for a reproducible build should be recorded here.          
 
 | Item | Version / model |
 |---|---|
@@ -259,13 +259,13 @@ The exact versions used for a reproducible build should be recorded here.reload-
 | Solenoid-valve voltage | 24 V |
 | Number of actuation channels | 12 |
 
-Before releasing a tagged version, replace every `To be confirmed` entry with the actual value used for successful compilation and testing.reload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alertreload-alert
+Before releasing a tagged version, replace every `To be confirmed` entry with the actual value used for successful compilation and testing.          
 
 ---
 
 ## Getting Started
 
-###reload-alert 1. Clone the Repository
+###  1. Clone the Repository
 
 Using Git:
 
@@ -274,7 +274,7 @@ git clone https://github.com/angelia-2007/Tensegrity-Amphibious-Robot.git
 cd Tensegrity-Amphibious-Robot
 ```
 
-Alternatively, open the repository page, select **Code → Download ZIP**, and extract the downloaded file.reload-alertreload-alertreload-alert
+Alternatively, open the repository page, select **Code → Download ZIP**, and extract the downloaded file.   
 
 ### 2. Locate the Keil Project
 
@@ -295,7 +295,7 @@ Keil MDK → Project → Open Project
 In Keil MDK:
 
 1. Open **Project → Options for Target**.
-2. Confirm that the selected STM32 model matches the physical controller.reload-alertreload-alert
+2. Confirm that the selected STM32 model matches the physical controller.  
 3. Confirm the oscillator and clock configuration.
 4. Confirm the compiler version.
 5. Confirm the include paths and preprocessor definitions.
@@ -520,3 +520,4 @@ https://github.com/angelia-2007/Tensegrity-Amphibious-Robot/issues
 
 To protect personal privacy, avoid placing private phone numbers, personal addresses, access tokens, or other sensitive information in this public README.
 
+reload-alert
