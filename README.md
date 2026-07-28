@@ -189,7 +189,7 @@ A typical gait-control process is:
 
 ## Repository Structure
 
-The repository currently centers on the STM32 firmware. A recommended structure is shown below:
+The repository currently centers on the STM32 firmware. the structure is shown below:
 
 ```text
 Tensegrity-Amphibious-Robot/
@@ -211,10 +211,7 @@ The following directories may be added later when the corresponding materials ar
 hardware/                     # Schematics, PCB files, BOM, and interface definitions
 simulation/                   # Gait, control, or mechanical simulation
 docs/                         # Technical documentation and experiment instructions
-media/                        # Images and links to demonstration videos
-```
-
-Do not list planned directories as released content until the corresponding files have actually been uploaded. 
+``` 
 
 ### Files That Should Usually Be Retained
 
