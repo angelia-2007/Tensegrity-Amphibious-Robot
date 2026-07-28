@@ -154,7 +154,7 @@ The robot control system may include the following hardware:
 
 ## Software and Control
 
-The firmware is developed for an STM32 embedded platform and opened or compiled using Keil MDK. If a valid STM32CubeMX `.ioc` file is included, peripheral configuration can also be inspected or regenerated in STM32CubeMX.
+The firmware is developed for an STM32 embedded platform and opened or compiled using Keil MDK. 
 
 The program may contain the following functional modules:
 
@@ -335,16 +335,6 @@ After a successful build:
 4. Reset the controller.
 5. Verify the logic-level output before connecting the valves.
 
-### 7. Optional STM32CubeMX Use
-
-If the repository contains a valid `.ioc` file:
-
-1. Open the `.ioc` file in STM32CubeMX.
-2. Check the MCU model, clock tree, GPIO, timers, UART, DMA, and interrupt settings.
-3. Do not regenerate code until local modifications have been backed up.
-4. If code generation is required, check that custom code is inside the designated `USER CODE` sections.
-5. Compare generated changes before committing them.
-
 ---
 
 ## Operation Procedure
@@ -472,8 +462,6 @@ Before adding a license, all relevant code contributors and rights holders shoul
 - the repository does not contain confidential or unauthorized third-party material;
 - the release does not conflict with an unpublished patent application, competition rule, university requirement, or collaboration agreement.
 
-If software and hardware design files are released under different licenses, clearly mark the applicable license in each directory.
-
 ---
 
 ## Citation
@@ -498,7 +486,7 @@ BibTeX:
 }
 ```
 
-If a formal paper, DOI, or archived release becomes available, replace this temporary repository citation with the formal citation.
+If a formal paper, DOI, or archived release becomes available, we will replace this temporary repository citation with the formal citation.
 
 ---
 
