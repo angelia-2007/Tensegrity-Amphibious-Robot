@@ -198,6 +198,7 @@ Tensegrity-Amphibious-Robot/
 ├── .gitignore
 └── firmware/
     ├── Core/                 # STM32 application source and headers
+    ├── DDrivers/             # Original peripheral configuration 
     ├── Drivers/              # STM32 HAL/CMSIS drivers
     ├── Middlewares/          # Optional middleware
     ├── MDK-ARM/              # Keil project configuration
@@ -257,9 +258,7 @@ The exact versions used for a reproducible build should be recorded here.
 | Debugger | J-LINK |
 | Remote-control link | ELRS receiver with SBUS output |
 | Solenoid-valve voltage | 24 V |
-| Number of actuation channels | 12 |
-
-Before releasing a tagged version, replace every `To be confirmed` entry with the actual value used for successful compilation and testing.          
+| Number of actuation channels | 12 |        
 
 ---
 
@@ -455,7 +454,7 @@ Document pneumatic channel mapping
 
 The source code in this repository is distributed under the license specified in the [`LICENSE`](LICENSE) file.
 
-Before adding a license, all relevant code contributors and rights holders should confirm that:
+Before adding a license, all relevant code contributors and rights holders has confirmed that:
 
 - they agree to the public release of their contributions;
 - they agree to the selected open-source license;
@@ -494,7 +493,7 @@ If a formal paper, DOI, or archived release becomes available, we will replace t
 
 We sincerely acknowledge the team members, instructors, and collaborators who contributed to the mechanical design, embedded control, pneumatic-system integration, system testing, and experimental verification of the robot.
 
-Any person listed by name in future versions of this section should be informed and should agree to the public attribution.
+Any person listed by name in future versions of this section will be informed and should agree to the public attribution.
 
 ---
 
@@ -507,5 +506,3 @@ https://github.com/angelia-2007/Tensegrity-Amphibious-Robot/issues
 ```
 
 To protect personal privacy, avoid placing private phone numbers, personal addresses, access tokens, or other sensitive information in this public README.
-
-reload-alert
